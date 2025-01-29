@@ -44,6 +44,6 @@ The map MUST be closed, and contain ONE player character. The player can face wh
  111111  
 </pre>
 In this example map, the player will be facing North when the game launches. This map is valid, as the map is closed and contains a player, even if there is an inaccessible room, and an empty area inside the map.  
-TABs cannot be used for spaces in the map creation, only SPACEs.  
+`TAB`s cannot be used for spaces in the map creation, only `SPACE`s.  
   
 Have fun!  

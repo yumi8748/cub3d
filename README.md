@@ -8,6 +8,17 @@
   
 ###### To access our bonuses (wall collisions, animations, and a simple minimap), compile with the bonus flag. To get the base game back, `make re`.  
 
+######If you encounter the following error during `make` compilation:
+```
+/usr/bin/ld: cannot find -lXrandr: No such file or directory  
+/usr/bin/ld: cannot find -lXi: No such file or directory  
+```
+######Run these commands to install the required X11 libraries:
+```
+sudo apt update  
+sudo apt install libxrandr-dev libxi-dev  
+```
+
 ## INPUTS
 
 `W` `S` to move FORWARD and BACK  
@@ -47,3 +58,10 @@ In this example map, the player will be facing North when the game launches. Thi
 `TAB`s cannot be used for spaces in the map creation, only `SPACE`s.  
   
 Have fun!  
+
+![image](https://github.com/user-attachments/assets/a55f3397-4f98-41e2-a70d-fd8f225d5ff8)
+![image](https://github.com/user-attachments/assets/adb81269-9a43-4f24-98a2-8a7e4e432813)
+![image](https://github.com/user-attachments/assets/b8190b86-442c-48e9-bb84-083500750909)
+
+
+

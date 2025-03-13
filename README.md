@@ -2,7 +2,8 @@
 
 ### 🏰This is our version of Cub3D, a project at 42 PARIS which consists in using raycasting and rendering to create a simple 3D game similar to Wolfenstein 3D.  
   
-#### 🎮 **Game Overview**  We use the MinilibX a simple X-Window programming API in C to render our game, thus it is recommended to use a MAC or LINUX machine to compile the game.  
+### 🎮 **Game Overview**  
+#### We use the MinilibX a simple X-Window programming API in C to render our game, thus it is recommended to use a MAC or LINUX machine to compile the game.  
   
 #### We use the DDA method for our raycasting process, which is a simple but fast algorithm which uses square grids to calculate distances from the player to the objects (walls) in a 2D space. With this system, it is virtually impossible to have walls of different sizes, stairs, etc, but in the case of our project it made the program easy to implement.  
   

@@ -1,25 +1,25 @@
 # Welcome to YU-CHEN and LMORAN's CUB3D
 
-### This is our version of Cub3D, a project at 42 PARIS which consists in using raycasting and rendering to create a simple 3D game similar to Wolfenstein 3D.  
+### 🏰This is our version of Cub3D, a project at 42 PARIS which consists in using raycasting and rendering to create a simple 3D game similar to Wolfenstein 3D.  
   
-#### We use the MinilibX a simple X-Window programming API in C to render our game, thus it is recommended to use a MAC or LINUX machine to compile the game.  
+#### 🎮 **Game Overview**  We use the MinilibX a simple X-Window programming API in C to render our game, thus it is recommended to use a MAC or LINUX machine to compile the game.  
   
 #### We use the DDA method for our raycasting process, which is a simple but fast algorithm which uses square grids to calculate distances from the player to the objects (walls) in a 2D space. With this system, it is virtually impossible to have walls of different sizes, stairs, etc, but in the case of our project it made the program easy to implement.  
   
-###### To access our bonuses (wall collisions, animations, and a simple minimap), compile with the bonus flag. To get the base game back, `make re`.  
+###### To access our bonuses (wall collisions, animations, and a simple minimap), compile with `make bonus`. To get the base game back, `make re`.  
 
-######If you encounter the following error during `make` compilation:
+###### ⚠️If you encounter the following error during `make` compilation:
 ```
 /usr/bin/ld: cannot find -lXrandr: No such file or directory  
 /usr/bin/ld: cannot find -lXi: No such file or directory  
 ```
-######Run these commands to install the required X11 libraries:
+###### Run these commands to install the required X11 libraries:
 ```
 sudo apt update  
 sudo apt install libxrandr-dev libxi-dev  
 ```
 
-## INPUTS
+## 🎮Controls
 
 `W` `S` to move FORWARD and BACK  
 `A` `D` to strafe LEFT and RIGHT  
